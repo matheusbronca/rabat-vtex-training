@@ -15,6 +15,13 @@
     "children": ["slider-layout#sale-slider", "flex-layout.row#top-navigation"]
   },
 
+  "flex-layout.row#top-navigation": {
+    "title": "TopNavigation",
+    "children": ["slider-layout#sale-slider", "flex-layout.row#sale-slider"]
+  },
+  "flex-layout.row#sale-slider": {
+
+  },
   "slider-layout#sale-slider": {
     "title": "Sale Slider",
     "props": {
@@ -32,21 +39,15 @@
         "speed": 400,
         "delay": 0
       },
-      "navigationStep": "page",
-      "children": [
-        "flex-layout.row#sliderItem--01",
-        "flex-layout.row#sliderItem--02",
-        "flex-layout.row#sliderItem--03"
-      ]
+      "navigationStep": "page"
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.row#sliderItem--01"
+      // "flex-layout.row#sliderItem--02",
+      // "flex-layout.row#sliderItem--03"
     ]
   },
 
-  
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
