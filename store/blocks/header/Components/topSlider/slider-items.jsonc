@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#sliderItem--01": {
+    "title": "Slider Item 01",
+    "children": ["image#sliderIcon--01", "rich-text#sliderText--01"]
+  },
+  "image#sliderIcon--01": {
+    "title": "Icon",
+    "props": {
+      "blockClass": ["sliderIcon"],
+      "src": "assets/truck-icon.png",
+      "maxWidth": "20px",
+      "maxHeight": "14px"
+    }
+  },
+
+  "rich-text#sliderText--01": {
+    "title": "Text",
+    "props": {
+      "blockClass": ["sliderText"],
+      "text": "Buy online get free shipping"
+    }
+  }
+}
