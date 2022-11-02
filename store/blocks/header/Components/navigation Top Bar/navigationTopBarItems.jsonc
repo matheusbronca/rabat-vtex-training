@@ -1,0 +1,23 @@
+{
+  "link#about": {
+    "title": "About - Link",
+    "props": {
+      "label": "About",
+      "href": "/about"
+    }
+  },
+  "link#contact": {
+    "title": "Contact - Link",
+    "props": {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  },
+  "link#policies": {
+    "title": "Policies - Link",
+    "props": {
+      "label": "Policies",
+      "href": "/policies"
+    }
+  }
+}

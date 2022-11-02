@@ -1,3 +1,8 @@
+.flexRowContent {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
@@ -43,7 +48,7 @@
 }
 
 .flexRow--deals {
-  background-color: #0F3E99;
+  background-color: #0f3e99;
   padding: 14px 0px;
 }
 

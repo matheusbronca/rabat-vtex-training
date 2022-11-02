@@ -19,5 +19,49 @@
       "blockClass": ["sliderText"],
       "text": "Buy online get free shipping"
     }
+  },
+
+  "flex-layout.row#sliderItem--02": {
+    "title": "Slider Item 02",
+    "children": ["image#sliderIcon--02", "rich-text#sliderText--02"]
+  },
+  "image#sliderIcon--02": {
+    "title": "Icon",
+    "props": {
+      "blockClass": ["sliderIcon"],
+      "src": "assets/truck-icon.png",
+      "maxWidth": "20px",
+      "maxHeight": "14px"
+    }
+  },
+
+  "rich-text#sliderText--02": {
+    "title": "Text",
+    "props": {
+      "blockClass": ["sliderText"],
+      "text": "Lorem Ipsum"
+    }
+  },
+
+  "flex-layout.row#sliderItem--03": {
+    "title": "Slider Item 03",
+    "children": ["image#sliderIcon--03", "rich-text#sliderText--03"]
+  },
+  "image#sliderIcon--03": {
+    "title": "Icon",
+    "props": {
+      "blockClass": ["sliderIcon"],
+      "src": "assets/truck-icon.png",
+      "maxWidth": "20px",
+      "maxHeight": "14px"
+    }
+  },
+
+  "rich-text#sliderText--03": {
+    "title": "Text",
+    "props": {
+      "blockClass": ["sliderText"],
+      "text": "Lorem Ipsum "
+    }
   }
 }

@@ -6,45 +6,39 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": ["flex-layout.row#slider-bar", "sticky-layout#4-desktop"]
+    "children": ["flex-layout.row#top-navigation", "sticky-layout#4-desktop"]
   },
-
-  "flex-layout.row#slider-bar": {
-    "title": "Top slider bar",
-    "props": {},
-    "children": ["slider-layout#sale-slider", "flex-layout.row#top-navigation"]
-  },
-
   "flex-layout.row#top-navigation": {
     "title": "TopNavigation",
-    "children": ["slider-layout#sale-slider", "flex-layout.row#sale-slider"]
+    "props": {
+      "blockClass": ["topNavigation"]
+    },
+    "children": [
+      "slider-layout#sale-slider",
+      "flex-layout.row#navigation-links"
+    ]
   },
-  "flex-layout.row#sale-slider": {
-
+  "flex-layout.row#navigation-links": {
+    "title": "Navigation Row Top Bar",
+    "props": {},
+    "children": ["link#about", "link#contact", "link#policies"]
   },
   "slider-layout#sale-slider": {
     "title": "Sale Slider",
     "props": {
       "blockClass": ["saleSlider"],
-      "autoplay": {
-        "timeout": 3
-      },
       "infinite": true,
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "phone": 1
       },
-      "slideTransition": {
-        "speed": 400,
-        "delay": 0
-      },
       "navigationStep": "page"
     },
     "children": [
-      "flex-layout.row#sliderItem--01"
-      // "flex-layout.row#sliderItem--02",
-      // "flex-layout.row#sliderItem--03"
+      "flex-layout.row#sliderItem--01",
+      "flex-layout.row#sliderItem--02",
+      "flex-layout.row#sliderItem--03"
     ]
   },
 
