@@ -8,6 +8,7 @@
       "product-specification-group#table",
       "shelf.relatedProducts",
       "product-reviews",
+      "pokemon-list#pdp",
       "product-questions-and-answers"
     ]
   },
