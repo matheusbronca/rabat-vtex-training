@@ -66,7 +66,7 @@
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",
-    "frncubo.total-items-available": "1.x"
+    "sqlipartnerfr.total-items-available": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
