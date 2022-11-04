@@ -1,8 +1,0 @@
-{
-  "pokemon-list#pdp": {
-    "title": "Pokemon List",
-    "props": {
-      "qty": 20
-    }
-  }
-}

@@ -8,6 +8,10 @@
   padding: 0 0.5rem;
 }
 
+.flexRowContent--main-header {
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {

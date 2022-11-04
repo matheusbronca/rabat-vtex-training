@@ -1,6 +1,9 @@
 {
   "flex-layout.row#sliderItem--01": {
     "title": "Slider Item 01",
+    "props": {
+      "blockClass": ["sliderItem"]
+    },
     "children": ["image#sliderIcon--01", "rich-text#sliderText--01"]
   },
   "image#sliderIcon--01": {
@@ -23,6 +26,9 @@
 
   "flex-layout.row#sliderItem--02": {
     "title": "Slider Item 02",
+    "props": {
+      "blockClass": ["sliderItem"]
+    },
     "children": ["image#sliderIcon--02", "rich-text#sliderText--02"]
   },
   "image#sliderIcon--02": {
@@ -45,6 +51,9 @@
 
   "flex-layout.row#sliderItem--03": {
     "title": "Slider Item 03",
+    "props": {
+      "blockClass": ["sliderItem"]
+    },
     "children": ["image#sliderIcon--03", "rich-text#sliderText--03"]
   },
   "image#sliderIcon--03": {

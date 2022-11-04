@@ -1,3 +1,9 @@
 .flexRow--topNavigation {
   background-color: gray;
 }
+
+.flexRowContent--sliderItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
